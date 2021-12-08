@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <bitset>
 #include <vector>
 
 #define N 5
