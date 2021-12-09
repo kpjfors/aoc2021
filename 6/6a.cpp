@@ -21,7 +21,7 @@ int main() {
             break;
     }
     
-    for(int days = 0; days < 200; days++){
+    for(int days = 0; days < 80; days++){
         new_fishes = 0;
         for(int &fish:fishes){
             if(fish==0){
@@ -30,7 +30,6 @@ int main() {
             }
             fish--;
         }
-        //cout << fishes.size() << endl;
         for(int nf = 0; nf<new_fishes;nf++){
             fishes.push_back(8);
         }
